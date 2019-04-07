@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///D:/VueStudy/jianyue/main.js"],"names":["Page","App"],"mappings":";;;;;;;;;;AAAA;AACA;AACI,gJ;AACAA,IAAI,CAAC,+BAAYC,eAAZ,CAAD,CAAJ,C","file":"pages/regist/regist.js","sourcesContent":["import 'uni-pages';\nimport pageFactory from 'mpvue-page-factory'\n    import App from './pages/regist/regist.vue'\n    Page(pageFactory(App))"],"sourceRoot":""}

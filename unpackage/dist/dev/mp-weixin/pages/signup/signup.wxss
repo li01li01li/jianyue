@@ -1,0 +1,41 @@
+
+.sign-box {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.left {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1 1 60%;
+	    -ms-flex: 1 1 60%;
+	        flex: 1 1 60%;
+}
+.right {
+	width: 150px;
+	height: 38px;
+	background-color: rgb(26, 173, 25);
+	color: #FFFFFF;
+	border-radius: 30px;
+	line-height: 40px;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1 1 40%;
+	    -ms-flex: 1 1 40%;
+	        flex: 1 1 40%;
+	text-align: center;
+}
+.uni-input {
+	border-radius: 10px;
+	margin: 5px 10px 5px 10px;
+	border: 1px solid #EEEEEE;
+}
+.green-btn {
+	width: 30%;
+	background-color: rgb(26, 173, 25);
+	color: #FFFFFF;
+}
+
