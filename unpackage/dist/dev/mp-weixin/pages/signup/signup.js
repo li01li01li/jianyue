@@ -147,7 +147,7 @@ __webpack_require__.r(__webpack_exports__);
       var TIME_COUNT = 60;
       var _this = this;
       uni.request({
-        url: this.apiServer + '/user/verify',
+        url: this.apiServer + 'user/verify',
         method: 'POST',
         header: {
           'content-type': 'application/x-www-form-urlencoded' },
@@ -193,7 +193,7 @@ __webpack_require__.r(__webpack_exports__);
       var _this = this;
       console.log(_this.verifyCode);
       uni.request({
-        url: this.apiServer + '/user/check',
+        url: this.apiServer + 'user/check',
         method: 'POST',
         header: {
           'content-type': 'application/x-www-form-urlencoded' },

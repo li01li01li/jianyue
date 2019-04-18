@@ -9,7 +9,9 @@
     "pages/setting/setting",
     "pages/user_info/user_info",
     "pages/signup/signup",
-    "pages/password/password"
+    "pages/password/password",
+    "pages/article_detail/article_detail",
+    "pages/search/search"
   ],
   "subPackages": [],
   "window": {

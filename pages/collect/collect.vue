@@ -1,5 +1,5 @@
 <template>
-	<div></div>
+	<view>ฮาตฤสีฒุ</view>
 </template>
 
 <script>

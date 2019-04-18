@@ -50,9 +50,16 @@
 		{
 			"path": "pages/password/password",
 			"style": {}
-		}
-	     
-	 
+		},
+		{
+			"path" : "pages/article_detail/article_detail",
+			"style" : {}
+		},
+	  {
+	  	"path" : "pages/search/search",
+	  	"style" : {}
+	  }
+	
 	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",

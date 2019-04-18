@@ -1,4 +1,4 @@
-<template>
+ <template>
 	<view class="container">
 		<view class="sign-box">
 			<input class="uni-input left" type="number" placeholder="输入手机号" v-model="mobile" required="required" />
@@ -32,7 +32,7 @@
 				const TIME_COUNT = 60;
 				var _this = this;
 				uni.request({
-					url: this.apiServer + '/user/verify',
+					url: this.apiServer + 'user/verify',
 					method: 'POST',
 					header: {
 						'content-type': 'application/x-www-form-urlencoded'
@@ -78,7 +78,7 @@
 				var _this = this;
 				console.log(_this.verifyCode);
 				uni.request({
-					url: this.apiServer + '/user/check',
+					url:  this.apiServer +'user/check',
 					method: 'POST',
 					header: {
 						'content-type': 'application/x-www-form-urlencoded'
@@ -102,8 +102,10 @@
 					}
 				});
 			}
-		}
-	};
+		}  
+	}; 
+
+
 </script>
 
 <style>

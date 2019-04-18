@@ -27,7 +27,7 @@
 .green-btn{
 		color: white;
 }
-._button{
+button{
 		background-color: green;
 }
 
